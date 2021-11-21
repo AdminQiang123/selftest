@@ -33,7 +33,7 @@ class DatasetCatalog(object):
         },
         "coco_2014_valminusminival": {
             "img_dir": "/kaggle/input/coco2014/val2014",
-            "ann_file": "/kaggle/valtest/instances_valminusminival2014.json"
+            "ann_file": "/kaggle/input/valtest/instances_valminusminival2014.json"
         },
         "keypoints_coco_2014_train": {
             "img_dir": "coco/train2014",
