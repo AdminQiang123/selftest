@@ -5,6 +5,12 @@ Basic training script for PyTorch
 
 # Set up custom environment before nearly anything else is imported
 # NOTE: this should be the first import (no not reorder)
+##在此增加了三行
+os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1' 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+
 from fcos_core.utils.env import setup_environment  # noqa F401 isort:skip
 
 import argparse
