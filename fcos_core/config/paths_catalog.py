@@ -20,20 +20,20 @@ class DatasetCatalog(object):
             "ann_file": "coco/annotations/image_info_test-dev2017.json"
         },
         "coco_2014_train": {
-            "img_dir": "coco/train2014",
-            "ann_file": "coco/annotations/instances_train2014.json"
+            "img_dir": "../../input/coco2014/train2014",
+            "ann_file": "../../input/coco2014/captions/annotations/instances_train2014.json"
         },
         "coco_2014_val": {
             "img_dir": "coco/val2014",
             "ann_file": "coco/annotations/instances_val2014.json"
         },
         "coco_2014_minival": {
-            "img_dir": "coco/val2014",
-            "ann_file": "coco/annotations/instances_minival2014.json"
+            "img_dir": "../../input/coco2014/val2014",
+            "ann_file": "../../input/valtest/instances_minival2014.json"
         },
         "coco_2014_valminusminival": {
-            "img_dir": "coco/val2014",
-            "ann_file": "coco/annotations/instances_valminusminival2014.json"
+            "img_dir": "../../input/coco2014/val2014",
+            "ann_file": "../../input/valtest/instances_valminusminival2014.json"
         },
         "keypoints_coco_2014_train": {
             "img_dir": "coco/train2014",
